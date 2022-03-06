@@ -1,0 +1,28 @@
+.link{
+    color: rgb(0, 113, 133);
+}
+.nike{
+    font-weight:  bold;
+    font-size: 30px;
+}
+.price{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+
+}
+.add-button{
+    background-color: rgb(225, 216, 20);
+    width: 120px;
+    height: 35px;
+    border:  none;
+    border-radius: 16px;
+    margin-right:  10px;
+
+}
+.buy-button{
+    background-color:  rgb(255, 164, 28);
+    border:  none;
+    height: 35px;
+    width:  120px;
+    border-radius:  16px;
+}
