@@ -1,3 +1,8 @@
+<!-- 
+block element
+inline-block element
+inline element -->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,16 +10,34 @@
         <style>
             .thumbnail{
                 width: 300px;
+                display: block;
             }
             .search-bar{
                 font-size: 20px;
                 margin-left: 12px;
             }
+            .video-title{
+                height:20px;
+            }
+            .video-title{
+                width: 300px;
+            }
         </style>
     </head>
-        <img class= "thumbnail" src="thumnails/thumbnail-1.webp">
-        <input class="search-bar" type="text" placeholder="Search">
+    
     <body>
+        <input class="search-bar" type="text" placeholder="Search">
+        <img class= "thumbnail" src="thumnails/thumbnail-1.webp">
         
+       <p class="video-title">
+           Talking Tech <strong>and AI with</strong> Google CEO
+            Sundar Pichai!
+        </p>
+       <p class="video-author">
+           Marques Brownlee
+        </p>
+       <p class="'video-status">
+           3.4M views &#183; 6 months ago
+        </p> 
     </body>
 </html>
