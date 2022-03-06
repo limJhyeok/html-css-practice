@@ -1,4 +1,4 @@
-# html-css-practice(SuperSimpleDev's courrse)
+# html-css-practice(SuperSimpleDev's course)
 
 This is the html-css practice from begginer to pro
 
