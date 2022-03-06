@@ -11,4 +11,4 @@ here is the link
 https://www.youtube.com/watch?v=G3e-cpL7ofc
 
 p.s)
-Thank you for "SuperSimpleDev"
+Thank you "SuperSimpleDev"
