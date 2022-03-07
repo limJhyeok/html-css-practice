@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            .flex{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border: none;
+                background-color: purple;
+                justify-content: space-between;
+                
+            }
+
+            .left-section{
+                color: white;
+                margin-left: 15px;
+            }
+            .middle-section{
+                border: none;
+                border-radius: 20px;
+                margin-left: 100px;
+                margin-right: 50px;
+                flex: 1;
+                padding-left: 20px;
+
+                height: 27px;
+            }
+            
+            .right-section{
+                margin-right: 15px;
+                border-color: white;
+                border: solid;
+                border-width: 1px;
+                background-color: purple;
+                color: white;
+                padding: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="flex" >
+            <div class="left-section"> <p>Home</p> </div>
+    
+            <input class="middle-section" type="text" placeholder="Search">
+    
+            <button class="right-section"> Download </button>
+
+        </div>
+    </body>
+</html>
