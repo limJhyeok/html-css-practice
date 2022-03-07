@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>lesson 13 practice b</title>
+        <style>
+            .flex{
+                display:flex;
+                flex-direction: row;
+            }
+            .left{
+                width: 100px;
+            }
+            .right{
+                width: 200px;
+            }
+            .row1{
+                margin-top:0px;
+                margin-bottom: 0px;
+            }
+
+            .right-flex{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;  
+                              
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="flex">
+            <div class="left" style=
+            "background-color: lightpink;"></div>
+            <div class="right" style=
+            "background-color: lightblue;">
+                <p class="row1">row1</p>
+                <div class="right-flex">
+                    <p style=
+                    "background-color: black;
+                    color: white;
+                    margin-top:0px;
+                    height: 20px;">row2</p>
+                    <p style=
+                    "background-color: black;
+                    color: white;
+                    margin-top: 0px;
+                    height: 20px;">row2</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

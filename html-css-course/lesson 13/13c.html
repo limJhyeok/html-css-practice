@@ -1,0 +1,83 @@
+<!DOCTYP html>
+
+<html>
+    <head>
+        <title>lesson 13 practice c</title>
+        <style>
+            .box{
+                padding: 8px 8px 8px 8px;
+                width: 480px;
+                box-shadow: 1px 1px 3px grey;
+            }
+            .contents{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .inboxes{
+                color: grey;
+                font-size: 15px;
+                margin-top: 0px;
+            }
+            .letter-inboxes{
+                margin-top: 2px;
+                margin-bottom: 20px;
+            }
+
+            .image{
+                height: 100px;
+            }
+            .info{
+                margin-left: 10px;
+            }
+
+            .first-line{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 350px;
+                margin-bottom:0px;
+                height: 25px;
+            }
+            .first-line-left, .second-line{
+                font-weight: bold;
+            }
+            
+            .second-line{
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            
+            .first-line-right{
+                color: grey;
+                font-size: 12px;
+            }
+
+            .third-line{
+                margin-top: 3px;
+                color: grey;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="box">
+            <div class="inboxes">
+                <p class="letter-inboxes">ALL INBOXES</p>
+            </div>
+            <div class="contents">
+                <img class="image" src="../channel-picture/my-channel.jpeg">
+                <div class="info">
+                    <div class="first-line">
+                        <p class="first-line-left">Chewy Promotions</p>
+                        <p class="first-line-right">4:58PM</p>
+                    </div>
+                    <p class="second-line">Biggest sales of the year!</p>
+                    <p class="third-line">Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
