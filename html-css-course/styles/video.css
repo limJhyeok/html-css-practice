@@ -11,7 +11,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .video-preview{
@@ -32,7 +32,7 @@
 }
 .channel-picture{
     /* display: inline-block; */
-    width: 40px;
+    width: 36px;
     vertical-align:top;
     border-radius: 30px;
 }
@@ -42,7 +42,7 @@
 }
 
 .thumbnail-row{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     display: inline-block;
 }
 .video-author,
