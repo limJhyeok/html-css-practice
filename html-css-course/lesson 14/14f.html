@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>lesson 14 practice f</title>
+        <style>
+            body{
+                height: 3000px;
+            }
+            .flex{
+                display:flex;
+                flex-direction: row;
+            }
+            .first-sidebar{
+                background-color:rgb(0,0,0,0.9);
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                bottom:0px;
+                width:90px;
+            }
+            img{
+                border-radius:40px;
+                margin-left: 10px;
+            }
+
+            .img-1{
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            .img-2{
+                margin-bottom: 5px;
+            }
+
+            .second-sidebar{
+                background-color:rgb(0,0,0,0.8);
+                position: fixed;
+                top: 0px;
+                left: 90px;
+                bottom: 0px;
+                width: 150px;
+            }
+
+            p{
+                margin-left: 10px;
+            }
+
+            .info{
+                color: white;
+            }
+            .plus{
+                margin-left: 70px;
+                font-size: 20px;
+                color: grey;
+            }
+            .hashtags{
+                color: grey;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="flex">
+            <div class="first-sidebar">
+                <img class="img-1" src="../channel-picture/channel-1.jpeg">
+                <img class="img-2" src="../channel-picture/channel-2.jpeg">
+                <img class="img-3" src="../channel-picture/channel-3.jpeg">
+            </div>
+            
+            <div class="second-sidebar">
+                <p class="info">INFO<span class="plus">+</span></p>
+                <div class="hashtags">
+                    <p># new-videos</p>
+                    <P># updates</P>
+                    <P># faq</P>
+                </div>
+            </div>
+        </div>
+    </body>
+
+
+</html>

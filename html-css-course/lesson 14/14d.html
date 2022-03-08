@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>lesson 14 exercise d</title>
+        <style>
+            body{
+                height: 3000px;
+            }
+            .modal{
+                background-color:white;
+                width: 300px;
+                height: 120px;
+                padding-left: 20px;
+                border-radius: 7px;
+            }
+            .first-line{
+                font-weight: bold;
+                font-size: 24px;
+                margin-top: 6px;
+                margin-bottom:0px;
+            }
+            .second-line{
+                font-size: 16px;
+                margin-top: 7px;
+            }
+            button{
+                border-width: 2px;
+                border-color: grey;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <div style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 100px;
+        top: 0;">Right sidebar</div>
+        <div style="
+        background-color: rgb(0, 0, 0, 0.8);
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;">>
+            <div class="modal">
+                <p class="first-line">Modal Title</p>
+                <p class="second-line">This is a modal</p>
+                <button>Close</button>
+            </div>
+        </div>
+    </body>
+</html>

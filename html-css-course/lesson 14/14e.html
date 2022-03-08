@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>lesson 14 exercise e</title>
+        <style>
+            body{
+                height: 3000px;
+            }
+            .flex{
+                display: flex;
+                flex-direction: row;
+                position: fixed;
+                align-items: center;
+                left: 50px;
+                right: 30px;
+            }
+            
+            .image{
+                height: 50px;
+                padding-right: 15px;
+            }
+            p{
+                font-weight: bold;
+                font-size: 15px;
+                flex: 1;
+            }
+
+            button{
+                border: none;
+                border-radius: 5px;
+                height: 35px;
+                padding-left: 8px;
+                padding-right: 8px;
+                margin-right: 10px;
+            }
+            .friend-button{
+                background-color:rgb(10, 10, 216);
+                color: white;
+            }
+            .message-button{
+                font-weight:bold;
+                background-color:grey;
+                color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="flex">
+            <img class="image" src="../channel-picture/my-channel.jpeg">
+            <p>Oliver Cat</p>
+            <button class="friend-button">Add Friend</button>
+            <button class="message-button">Message</button>
+        </div>
+    </body>
+
+</html>
