@@ -31,3 +31,28 @@
     font-family: Roboto, Arial;
     font-size: 10px;
 }
+
+
+@media (min-width: 1200px){
+    .sidebar{
+        width: 230px;
+    }
+    .sidebar img{
+        padding-left: 40px;
+    }
+    .sidebar-link{
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        /* align-items: center;*/
+        justify-content: center;
+    }
+    .sidebar-link div{
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    body{
+        padding-left: 250px;
+    }
+
+}

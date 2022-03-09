@@ -1,5 +1,4 @@
 
-
 .thumbnail{
     /* width: 300px; */
     width: 100%;
@@ -141,4 +140,19 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+@media (min-width: 1000px){
+    .video-title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .video-author,
+    .video-status{
+        font-size: 14px;
+    }
+}
+
+
+
+
 
