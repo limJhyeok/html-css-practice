@@ -1,5 +1,10 @@
 # HTML & CSS Practice (SuperSimpleDev's Course)
 
+**언어 선택 / Language Selection:**
+
+- [🇺🇸 English](README.md)
+- [🇰🇷 한국어 (Korean)](README.ko.md)
+
 This repository contains HTML and CSS practice projects from beginner to pro, based on the course by SuperSimpleDev. If you're just starting out with HTML and CSS, I highly recommend following this course and completing the assignments. 
 
 The instructions are clear and easy to follow, with assignments that are manageable but provide ample opportunity to practice and understand the key concepts of HTML and CSS.
