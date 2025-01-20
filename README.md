@@ -1,16 +1,41 @@
-# html-css-practice(SuperSimpleDev's course)
+# HTML & CSS Practice (SuperSimpleDev's Course)
 
-This is the html-css practice from begginer to pro
+This repository contains HTML and CSS practice projects from beginner to pro, based on the course by SuperSimpleDev. If you're just starting out with HTML and CSS, I highly recommend following this course and completing the assignments. 
 
-I recommend if you don't know html and css to follow this course and assignment
+The instructions are clear and easy to follow, with assignments that are manageable but provide ample opportunity to practice and understand the key concepts of HTML and CSS.
 
-The instruction is easy to understand and assignment is not so difficult 
+## Course Link
 
-but enough to practice writing code and understand key concepts of html and css
+If you want to see the course or materials, check out the [YouTube link here](https://www.youtube.com/watch?v=G3e-cpL7ofc).
 
-if you want to see the course or material
-here is the link
-https://www.youtube.com/watch?v=G3e-cpL7ofc
+## Course Breakdown
 
-p.s)
-Thank you "SuperSimpleDev"
+Here's a brief overview of the topics covered in the course:
+
+1. **HTML Basics** 
+2. **CSS Basics** 
+3. **Hovers, Transitions, Shadows** 
+4. **Chrome DevTools & CSS Box Model** 
+5. **Text Styles** 
+6. **The HTML Structure** 
+7. **Images and Text Boxes**
+8. **CSS Display Property**
+9. **The div Element** 
+10. **Nested Layouts Technique** 
+11. **CSS Grid** 
+12. **Flexbox**
+13. **Nested Flexbox** 
+14. **CSS Position** 
+15. **Position Absolute and Relative**
+16. **Finish the Project** 
+17. **More CSS Features** 
+
+## Project Features
+
+- The course covers a wide range of fundamental HTML and CSS topics.
+- Hands-on assignments help reinforce key concepts.
+- By the end of the course, you'll have a solid understanding of HTML and CSS.
+
+## Acknowledgements
+
+A special thank you to "SuperSimpleDev" for the wonderful course!
