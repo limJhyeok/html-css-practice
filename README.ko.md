@@ -2,8 +2,8 @@
 
 **언어 선택 / Language Selection:**
 
-- [🇺🇸 English](README.md)
 - [🇰🇷 한국어 (Korean)](README.ko.md)
+- [🇺🇸 English](README.md)
 
 이 저장소는 SuperSimpleDev 강좌를 기반으로 초급부터 고급까지 HTML 및 CSS를 연습할 수 있는 프로젝트를 포함하고 있습니다. HTML과 CSS를 처음 시작하는 분들에게 이 강좌를 따라가며 과제를 완료할 것을 추천합니다.
 
